@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="//cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+  <script src="//cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+  <script src="//cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+  <script src="//cdn.jsdelivr.net/npm/@mediapipe/holistic/holistic.js" crossorigin="anonymous"></script>
+  <script src="//cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.2.0/dist/tf.min.js"></script>
+  <style>
+    h1 {text-align: center;}
+    canvas {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+    .gifs {
+      display:grid;
+      grid-template-columns:1fr 1fr 1fr 1fr;
+      align-items: center;
+      justify-content: center;
+  }
+    .gif_individual {
+      width:250px;
+      height: 180px;
+    }
+
+    h2 {
+      font-size:20px;
+      font-family: Trebuchet MS;
+      text-align: center;
+      justify-self: center;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1 style="font-size:50px; font-family: Trebuchet MS;" id="prediction">Sign Language Symptoms Detector</h1>
+    <video class="input_video" style="display: none;"></video>
+    <canvas class="output_canvas" width="1000px" height="600px"></canvas>
+
+    <h2>Try detecting these symptoms:</h2>
+    <div class="gifs">
+      <div style="align-items: center;">
+        <img class="gif_individual" src="gifs/tired.gif" alt="tired" title="tired" />
+        <h2>Tired 😓</h2>
+      </div>
+      <div>
+        <img class="gif_individual" src="gifs/infection.gif" alt="infection" />
+        <h2>Infection 😷</h2>
+      </div>
+      <div>
+        <img class="gif_individual" src="gifs/headache.gif" alt="headache" />
+        <h2>Headache 🧠 </h2>
+      </div>
+      <div>
+        <img class="gif_individual" src="gifs/sorethroat.gif" alt="sore throat" />
+        <h2>Sore Throat 🤒</h2>
+      </div>
+
+    </div>
+
+
+
+
+  </div>
+</body>
+
+<script src="translator.js" ></script>
+
+</html>
