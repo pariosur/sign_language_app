@@ -8,7 +8,6 @@ End to end project, from extracting the input data for training the model to pro
 * [Technologies Used](#technologies-used)
 * [Project Pipeline](#project-pipeline)
 * [Features](#features)
-* [Setup](#setup)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
 <!-- * [License](#license) -->
@@ -45,12 +44,6 @@ End to end project, from extracting the input data for training the model to pro
 
 ## Features
 - Predict sign over 4 different symptoms: Headache 🧠, Tired 😓, Sore throat 🤒 and Infection 😷
-
-
-## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
 
 
 ## Acknowledgements
