@@ -43,7 +43,7 @@ End to end project, from extracting the input data for training the model to pro
 
 
 ## Features
-- Predict sign of 4 different symptoms: Headache 🧠, Tired 😓, Sore throat 🤒 and Infection 😷
+- Predict sign for 4 different symptoms: Headache 🧠, Tired 😓, Sore throat 🤒 and Infection 😷
 
 
 ## Acknowledgements
