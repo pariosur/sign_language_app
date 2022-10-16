@@ -5,7 +5,8 @@ End to end project, from extracting the input data for training the model to pro
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Project Pipeline and Technologies Used](#technologies-used)
+* [Technologies Used](#technologies-used)
+* [Project Pipeline](#project-pipeline)
 * [Features](#features)
 * [Setup](#setup)
 * [Acknowledgements](#acknowledgements)
@@ -19,7 +20,21 @@ End to end project, from extracting the input data for training the model to pro
 - As part of the final project for Le Wagon Data Science Bootcamp (Lisbon, Sep 22), together with 3 of my classmates we approached this question by building an end to end computer vision app able to predict sign language symptoms in real time. 
 - By signing ASL (American Sign Language) symptoms via webcam, the deaf patient is able to communicate with the healthcare professionals in real time. This may be useful in emergency situations or when an interpreter is not readily available.  
 
-## Project Pipeline and Technologies Used
+
+## Technologies Used
+
+- Python
+- Media Pipe Holistic
+- Open CV
+- TensorFlow
+- Keras
+- JavaScript
+- HTML
+- PHP
+- Render
+
+
+## Project Pipeline
 
 • **Extract Datapoints:** Collect the input data as coordinates from the movement of hands, face and body using Media Pipe Holistic and Open CV. Initially we extracted this coordinates from the [_WLASL_] (https://dxli94.github.io/WLASL/) videos dataset. However, when training the model with these datapoints we realized that there was high varience in the positions and close up of the signers of the videos. This resulted in the model having very low accuracy and not really learning from the data. So instead we recorded the signs ourselves, collecting over 12 million datapoints and storing them as numpy arrays. 
 
