@@ -18,17 +18,24 @@ End to end project, from extracting the input data for training the model to pro
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
+- How can we improve communication between deaf patients and healthcare professionals?
+- As part of the final project for Le Wagon Data Science Bootcamp (Lisbon, Sep 22), together with 3 of my classmates we approached this question by building an end to end computer vision app able to predict sign language symptoms in real time. 
+- By signing the symptoms via webcam, the deaf patient is able to communicate with the healthcare professionals in real time. This can be useful in emergency situations or when an interpreter is not readily available.  
 
-## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+## Project Pipeline and Technologies Used
+
+1. Extract Datapoints: Collect the input data as coordinates from the movement of hands, face and body using Media Pipe Holistic and Open CV. Initially we extracted this coordinates from the [_WLASL_] (https://dxli94.github.io/WLASL/) videos dataset. However, when training the model with these datapoints we realized that there was high varience in the positions and close up of the signers of the videos. This resulted in the model having very low accuracy and not really learning from the data. So instead we recorded the signs ourselves, collecting over 12 million datapoints and storing them as numpy arrays. 
+
+2. Train the model: a deep neural network GRU model using Keras and Tensorflow. This 
+• Set to production using Javascript and deployed in Heroku.
+Python
+- Open CV 
+- Media Pipe Holistic
+- TensorFlow
+- Keras
+- Javascript
+- PHP
 
 
 ## Features
