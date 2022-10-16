@@ -39,7 +39,7 @@ End to end project, from extracting the input data for training the model to pro
 
 **2. Train the model:**  Using Keras and Tensorflow, we build a deep neural network model. Instead of using the proposed LSTM, we used a single dense layer GRU model which not only proved better accuracy, but also made the model lighter and faster. This makes sense as the sequences of frames were short and the dataset was relatively small. 
 
-**3. Deployment:** In order for the model to predict using a live webcam feed we translated the Python logic to JavaScript and processed it with PHP as a static website. Then was deployed via github in Render.    
+**3. Deployment:** In order for the model to predict using a live webcam feed we translated the Python logic to JavaScript and processed it with PHP as a static website. Then was deployed through GitHub in Render.    
 
 
 ## Features
