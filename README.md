@@ -35,7 +35,7 @@ End to end project, from extracting the input data for training the model to pro
 
 ## Project Pipeline
 
-• **Extract Datapoints:** Collect the input data as coordinates from the movement of hands, face and body using Media Pipe Holistic and Open CV. Initially we extracted this coordinates from the [_WLASL_](https://dxli94.github.io/WLASL/) videos dataset. However, when training the model with these datapoints we realized that there was high varience in the positions and close up of the signers of the videos. This resulted in the model having very low accuracy and not really learning from the data. So instead we recorded the signs ourselves, collecting over 12 million datapoints and storing them as numpy arrays. 
+• **Extract Datapoints:** Collect the input data as coordinates from the movement of hands, face and body using Media Pipe Holistic and Open CV. Initially we extracted this coordinates from the [_WLASL_](https://dxli94.github.io/WLASL/) videos dataset. However, when training the model, we realized there was too much of a varience within the positions and close up frames of the signers. This resulted in the model having very low accuracy and not really learning from the data. So instead we recorded the signs ourselves, collecting over 12 million datapoints and storing them as numpy arrays. 
 
 • **Train the model:**  Using Keras and Tensorflow, we build a deep neural network model. Instead of using the proposed LSTM, we used a single dense layer GRU model which not only proved better accuracy, but also made the model lighter and faster. This makes sense as the sequences of frames were short and the dataset was relatively small. 
 
