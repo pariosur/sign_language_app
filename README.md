@@ -44,7 +44,7 @@ Proceed to describe how to install / setup one's local environment / get started
 
 ## Acknowledgements
 
-- This project was based on [this tutorial]([https://www.example.com](https://www.youtube.com/watch?v=doDUihpj6ro&t=125s)).
+- This project was based on [this tutorial](https://www.youtube.com/watch?v=doDUihpj6ro&t=125s) .
 - Many thanks to Julien Berthomier and Vinicius Moura
 
 
