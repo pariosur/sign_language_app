@@ -49,7 +49,6 @@ End to end project, from extracting the input data for training the model to pro
 ## Acknowledgements
 
 - This project was based on [this tutorial](https://www.youtube.com/watch?v=doDUihpj6ro&t=125s) by Nicholas Renotte.
-- Many thanks to Julien Berthomier and Vinicius Moura
 
 
 ## Contact
