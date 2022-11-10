@@ -50,7 +50,3 @@ End to end project, from extracting the input data for training the model to pro
 
 - This project was based on [this tutorial](https://www.youtube.com/watch?v=doDUihpj6ro&t=125s) by Nicholas Renotte.
 
-
-## Contact
-Created by [@pariosur](https://github.com/pariosur) - feel free to contact me!
-
