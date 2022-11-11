@@ -3,7 +3,7 @@
 End to end project, from extracting the input data for training the model to production deployment.
 > Live demo [_here_](https://signlanguagesymptoms.onrender.com/)
 
-## Table of Contents
+## Table of Contents 
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Project Pipeline](#project-pipeline)
