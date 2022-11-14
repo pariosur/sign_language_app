@@ -42,7 +42,7 @@ End to end project, from extracting the input data for training the model to pro
 **3. Deployment:** In order for the model to predict using a live webcam feed we translated the Python logic to JavaScript and processed it with PHP as a static website. Then was deployed through GitHub in Render.    
 
 
-## Features
+## Features 
 - Predict sign for 4 different symptoms: Headache 🧠, Tired 😓, Sore throat 🤒 and Infection 😷
 
 
