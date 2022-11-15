@@ -31,6 +31,7 @@ End to end project, from extracting the input data for training the model to pro
 - HTML
 - PHP
 - Render
+ 
 
 
 ## Project Pipeline
