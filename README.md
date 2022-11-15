@@ -1,6 +1,6 @@
 # Sign Language Symptom Detector App
 > Real-time sign language detector app able to translate symptoms into text.
-End to end project, from extracting the input data for training the model to production deploymen
+End to end project, from extracting the input data for training the model to production deployment.
 > Live demo [_here_](https://signlanguagesymptoms.onrender.com/)
 
 ## Table of Contents 
